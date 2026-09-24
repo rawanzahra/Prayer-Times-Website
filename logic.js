@@ -47,7 +47,7 @@ onload=function getUserlocation(){
     }
 
 }
-getlocation(document.getElementById('city-select').value);
+
 function getlocation(value){
     let [city,country]=value.split(',');
     axios.get(`https://api.aladhan.com/v1/timingsByCity?city=${city}&country=${country}`)
