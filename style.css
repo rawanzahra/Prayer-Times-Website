@@ -95,7 +95,7 @@ label{
     .times{
         display: grid;
         grid-template-columns: auto auto;
-        gap: 20px;
+        gap: 10px;
         margin-right: 10px;
     }
     
