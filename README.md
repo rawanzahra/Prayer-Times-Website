@@ -1,13 +1,15 @@
-# 🕌 Prayer Times Website
 
 A responsive **Prayer Times Website** built with **HTML, CSS, and JavaScript**, using the **Aladhan API** to display accurate prayer times based on the user's location or selected city.
 
 ## 📸 Project Preview
 ### 💻 Desktop
-<img width="633" height="783" alt="image" src="https://github.com/user-attachments/assets/47620234-8a68-49fe-be41-f317e512f583" />
+<img width="1903" height="887" alt="image" src="https://github.com/user-attachments/assets/3ae783f8-b7c0-4705-ba61-8c4e8223944b" />
+
 
 ### 📱 Mobile
-![Uploading image.png…]()
+<img width="658" height="775" alt="image" src="https://github.com/user-attachments/assets/d9aa89f7-63bf-47b7-bd26-6ff6b7ab7539" />
+
+
 
 ## ✨ Features
 
@@ -60,7 +62,7 @@ The website supports:
 The website initially attempts to get the user's location using the browser's **Geolocation API**.
 
 
-## 🚀 How to Run
+##  How to Run
 
 1. Clone the repository:
 
