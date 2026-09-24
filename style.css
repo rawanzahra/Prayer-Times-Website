@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.cont{
+    background-image: url(width.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+.times{
+    display: grid;
+    grid-template-columns: 25% 25%;
+    gap: 20px;
+}
+.aladhan div,.time div,#date{
+    color: rgb(23, 12, 4);
+    text-align: center;
+    align-content: center;
+    margin: 10px ;
+    height: 8vh;
+    background-color: rgba(215, 189, 155, 0.655);
+    border-radius: 25px;
+    
+
+}
+#date{
+    width: 40%;
+    margin-left: 75px;
+}
+#Hijri{
+    direction: rtl;
+
+}
+.aladhan,.time{
+    padding-left: 40px;
+    padding-top: 30px;
+}
+.location{
+    padding-top: 20px;
+    padding-left: 50px;
+    color: white;
+}
+.location option,select{
+    background-color: rgb(30, 25, 3);
+    color: white;
+    border-radius: 20px;
+    font-size: larger;
+    padding: 4px;
+
+
+}
+label{
+    font-size: larger;
+}
+.aladhan div:hover,
+.time div:hover
+{
+    background-color: rgba(26, 15, 1, 0.655);
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+ 
+}
+
+/* (Floating Effect) */
+@keyframes floatAnimation {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-6px); 
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+  
+  /* تطبيق الحركة على الـ Div */
+  .aladhan,.time {
+    animation: floatAnimation 3s ease-in-out infinite; /* تتكرر باستمرار بنعومة */
+  }
+
+  @media (max-width:600px) {
+    .cont{
+        background-image: url(main.jpg);
+      
+    }
+    #date{
+        width: 40%;
+        margin-left: 60px;
+    }
+    
+    
+  }
+  
+ 

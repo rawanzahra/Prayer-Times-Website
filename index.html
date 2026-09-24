@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aladhan</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="node_modules/axios/dist/axios.js"></script>
+</head>
+<body>
+ <div class="cont">
+    <div class="location">
+        <label for="city-select">Chose city: </label>
+        <select id="city-select" onchange="getlocation(this.value)">
+        <option value="Cairo,Egypt" selected>Cairo</option>
+        <option value="Alexandria,Egypt">Alexandria</option>
+        <option value="Ismailia,Egypt">Ismailia</option>
+        <option value="Gharbia,Egypt">Gharbia</option>
+        <option value="Sharqia,Egypt">Sharqia</option>
+        <option value="Makkah,Saudi Arabia">Makkah</option>
+        <option value="Madinah,Saudi Arabia">Madinah</option>
+        <option value="South Sinai,Egypt">South Sinai</option>
+        </select>
+    </div>
+    
+    <div class="times">
+        <div class="aladhan">
+            <div id="Fajr">Fajr</div>
+            <div id="Sunrise">Sunrise</div>
+            <div id="Dhuhr">Dhuhr</div>
+            <div id="Asr">Asr</div>
+            <div id="Maghrib">Maghrib</div>
+            <div id="Isha">Isha</div>
+        </div>
+        <div class="time">
+            <div id="tFajr"></div>
+            <div id="tSunrise"></div>
+            <div id="tDhuhr"></div>
+            <div id="tAsr"></div>
+            <div id="tMaghrib"></div>
+            <div id="tIsha"></div>
+        </div>
+    </div>
+    <div id="date">
+        <p id="Gregorian"></p>
+        <p id="Hijri"></p>
+
+    </div>
+ </div>
+
+    <script src="logic.js"></script>
+    
+</body>
+</html>
